@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/19 13:19:04 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 13:23:02 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:38 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 void	mv_hor(t_vars *vars)
 {

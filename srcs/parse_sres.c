@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/07 15:47:38 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/16 13:08:57 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:50 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static void	badsres(t_conf *config, int d)
 {

@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/28 17:50:38 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/16 14:06:59 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:42 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static void	badfc(t_conf *config, int d)
 {

@@ -6,7 +6,7 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/25 14:00:46 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/11/06 14:10:27 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 18:03:31 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 # include "get_next_line.h"
 # include <math.h>
-# include "./minilibx/mlx.h"
+# include "./../minilibx/mlx.h"
 
 typedef struct	s_data {
 	void		*img;

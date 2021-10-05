@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 16:28:33 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/11/06 12:26:28 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:33 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 int			cub3d_raycast_loop(t_vars *vars)
 {

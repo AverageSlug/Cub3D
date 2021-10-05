@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/14 13:52:59 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/15 12:34:29 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:58:12 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static void	cub3d_texside0(t_vars *vars)
 {

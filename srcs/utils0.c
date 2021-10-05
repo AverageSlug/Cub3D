@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 18:45:34 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 15:12:37 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:58:09 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 int		create_trgb(int t, int r, int g, int b)
 {

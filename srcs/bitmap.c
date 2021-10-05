@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/16 11:34:14 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 13:33:20 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:17 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static void	fillbits(unsigned char *bitmap, unsigned int value)
 {

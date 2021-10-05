@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/15 12:24:15 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/16 17:35:34 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:58:04 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static void	cub3d_spritesort(t_vars *vars, int spor[vars->config.spn],
 		double spdist[vars->config.spn])

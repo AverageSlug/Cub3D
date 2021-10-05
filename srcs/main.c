@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/25 14:05:05 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/11/06 12:19:04 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:31 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static int	checkfile(int fd, char **argv)
 {

@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 14:53:06 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 16:52:20 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:44 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 static int	cub3d_parse_map_fl(t_conf *config)
 {

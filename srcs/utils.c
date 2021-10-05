@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/27 15:36:07 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 15:10:50 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:58:07 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 int		cub3d_atoi(const char *str)
 {

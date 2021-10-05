@@ -6,17 +6,23 @@
 #    By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/09/17 12:12:22 by nlaurids          #+#    #+#              #
-#    Updated: 2020/11/06 12:26:17 by nlaurids         ###   ########.fr        #
+#    Updated: 2021/10/05 17:56:44 by nlaurids         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = cub3D
+NAME		= cub3D
 
-SRCS = bitmap.c get_next_line.c key.c movement.c main.c mlx_main.c \
+SRCS_NAME	= bitmap.c get_next_line.c key.c movement.c main.c mlx_main.c \
 	   parse_sres.c parse_tex.c parse_fc.c parse_map.c parse_map0.c \
 	   raycast.c raycast0.c split.c sprite.c utils.c utils0.c utils1.c utils2.c
 
-OBJS = $(SRCS:.c=.o)
+INC_NANE	= cub3d.h get_next_line.h
+
+SRCS		= $(addprefix srcs/, $(SRCS_NAME))
+
+INC			= $(addprefix srcs/, $(INC_NAME))
+
+OBJS		= $(SRCS:.c=.o)
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
@@ -24,7 +30,7 @@ EXTRAFLAGS = -Lminilibx -lmlx -framework AppKit -framework OpenGL
 
 all:		$(NAME)
 
-$(NAME):	$(OBJS)
+$(NAME):	$(OBJS) $(INC)
 			$(CC) $(CFLAGS) $(EXTRAFLAGS) $(OBJS) -o $(NAME)
 
 clean:

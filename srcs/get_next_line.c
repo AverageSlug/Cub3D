@@ -6,11 +6,11 @@
 /*   By: nlaurids <nlaurids@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/17 14:15:54 by nlaurids          #+#    #+#             */
-/*   Updated: 2020/10/19 14:26:20 by nlaurids         ###   ########.fr       */
+/*   Updated: 2021/10/05 17:57:23 by nlaurids         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "cub3d.h"
+#include "../includes/cub3d.h"
 
 char	*ft_memcat(char *line, char rest[BUFFER_SIZE + 1])
 {
